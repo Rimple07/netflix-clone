@@ -47,4 +47,71 @@ position:absolute
     margin-left: 0;
 }
 
+.mb-4 input {
+   background-color:#333 ;
+ 
+  }
+
+  #sign-in-btn{
+    background-color: #e50914;
+    width:29vh;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 24px 0 12px;
+    max-width: 100%;
+  }
+ .font-color{
+ color: #b3b3b3;
+ font-size: 13px;
+ font-weight: 400
+  }
+  .input-container{
+    padding-bottom: 16px;
+    border: 0;
+    border-radius: 4px;
+    position: relative;
+  
+  }
+  .form-input{
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 16px 20px 15px;
+
+  }
+  .signIn-label{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+  }
+
+ #form-sub-container{
+    
+    margin-bottom: 90px;
+    min-height: 625px;
+    padding: 60px 68px 40px;
+  
+ }
+ .form-main-container{
+    min-height: 660px;
+    display:flex
+ }
+
+ .form-container{
+ 
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 515px;
+    padding: 20px 0 30px;
+    width: 100%;
+ }
+
+
 

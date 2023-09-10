@@ -9,7 +9,6 @@ function Footer() {
           Questions? Call 000-800-919-1694{" "}
         </a>
         <span className="container-first">
-          {" "}
           <a className="link link-hover text-white">FAQ</a>
           <a className="link link-hover text-white">Help Centre</a>
           <a className="link link-hover text-white">Terms of Use</a>
