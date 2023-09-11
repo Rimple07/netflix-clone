@@ -8,10 +8,10 @@ function Routes1() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<SignIn/>}>
+      <Route exact path="/signin" element={<SignIn/>}/>
         <Route index element={<Home/>} />
-        <Route path="blogs" element={<SignUp />} />
-      </Route>
+        <Route exact path="/signup" element={<SignUp/>} />
+     
     </Routes>
   </BrowserRouter>  
   )

@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function Navbar() {
   const link = [
     {
@@ -62,14 +61,14 @@ function Navbar() {
               </button>
             </div>
             <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start ">
-              <div class="flex flex-shrink-0 items-center ">
+              <div class="flex flex-shrink-0 items-center h-30 w-30 ">
                 <img
-                  class="h-12 w-24"
+                  class="h-20 w-30"
                   src="https://images.ctfassets.net/4cd45et68cgf/7LrExJ6PAj6MSIPkDyCO86/542b1dfabbf3959908f69be546879952/Netflix-Brand-Logo.png?w=700&h=456"
                   alt="logo"
                 />
               </div>
-              <div class="hidden sm:ml-6 sm:block">
+              <div class="hidden sm:ml-6 my-6 sm:block">
                 <div class="flex space-x-4">
                   <a
                     href="#"
@@ -190,56 +189,10 @@ function Navbar() {
                     </svg>
                   </button>
                 </div>
-{/* 
-                <div
-                  class="fixed right-0 mt-3 mx-0 mr-0 my-0 py-1 shadow-lg ring-black ring-opacity-5 focus:outline-none h-screen bg-cover bg-no-repeat"
-                  role="menu"
-                  aria-orientation="vertical"
-                  aria-labelledby="user-menu-button"
-                  tabindex="-1"  
-                  style={{
-                    width: "100vw",
-                    height: "100vh",
-                    minHeight: "100%",
-                    minWidth: "100%",
-                    backgroundSize: "cover",
-                    backgroundImage: `url(${netflix})`,
-                  }}
-                > */}
-                  {/* <a
-                  href="#"
-                  class="block px-4 py-2 text-sm text-gray-700"
-                  role="menuitem"
-                  tabindex="-1"
-                  id="user-menu-item-0"
-                >
-                  Your Profile
-                </a>
-                <a
-                  href="#"
-                  class="block px-4 py-2 text-sm text-gray-700"
-                  role="menuitem"
-                  tabindex="-1"
-                  id="user-menu-item-1"
-                >
-                  Settings
-                </a>
-                <a
-                  href="#"
-                  class="block px-4 py-2 text-sm text-gray-700"
-                  role="menuitem"
-                  tabindex="-1"
-                  id="user-menu-item-2"
-                >
-                  Sign out
-                </a> */}
-                {/* </div> */}
               </div>
             </div>
           </div>
         </div>
-
-    
       </nav>
     </header>
   );
