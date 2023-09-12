@@ -15,7 +15,7 @@ function Wallpaper() {
         height: "100vh",
         minHeight: "100%",
         minWidth: "100%",
-        backgroundSize: "cover",
+        // backgroundSize: "cover",
         backgroundImage: `url(${netflixPik})`,
         opacity: "0.5",
       }}

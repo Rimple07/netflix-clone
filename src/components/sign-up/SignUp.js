@@ -4,47 +4,52 @@ import Footer from "../sign-In/Footer";
 import netflixlogo from "../../assets/netflix-logos-idcIWizlPG.png";
 import Dropdown from "../commonwallpaper/Dropdown";
 import "./SignUp.scss";
+import SignUpBody from "./SignUpBody";
+import SignupCards from "./SignupCards";
 
 function SignUp() {
   return (
-    <div
-      className="flex bg-black bg-opacity-100 overflow-hidden"
-      style={{ backgroundColor: "#000" }}
-    >
+    <div>
       <div class="absolute flex w-full flex justify-around">
         <div>
           {" "}
           <img
-            // class="h-auto"
             className="img-logo1"
             src={netflixlogo}
             alt="netflix-logo"
             style={{ color: "red" }}
           />{" "}
         </div>
-
-        <div style={{ color: "white" }}>
+        <div class="pt-5 flex gap-12">
           {" "}
-          <Dropdown />
-        </div>
-        <div class="text-center lg:text-left border-4 " style={{backgroundColor: "red"}}>
-          <button
-            type="button"
-            class="inline-block rounded bg-primary border-solid border-indigo-500  px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white "
-            data-te-ripple-init
-            data-te-ripple-color="light"
-          
-         
-          >
-            Sign In
-          </button>
+          <div style={{ color: "white", border: "solid", height: "56px" }}>
+            {" "}
+            <Dropdown />
+          </div>
+          <div class=" text-center lg:text-left">
+            <button class=" absolute  h-10 bg-red-700 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mr-0.75 ">
+              Sign In
+            </button>
+          </div>{" "}
         </div>
       </div>
-
-      <div>
-        <Wallpaper />
+      <div
+        className="flex justify-centre items-start bg-black overflow-hidden"
+        style={{ backgroundColor: "#000" , height: "45rem" }}
+      >
+        <div class="opacity-75">
+          <Wallpaper />
+        </div>
+        <div class="absolute w-full pr-12 px-12" id="signup-container">
+          {" "}
+          <SignUpBody />{" "}
+        </div>
+      </div>{" "}
+      <div class="relative flex items-centre justify-centre">
+        {" "}
+        <SignupCards />{" "}
       </div>
-      <div>
+      <div class="absolute">
         <Footer />
       </div>
     </div>
