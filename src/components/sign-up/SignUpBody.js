@@ -1,6 +1,6 @@
 import React from "react";
 import "./SignUp.scss"
-import SignupCards from "./SignupCards";
+import SignupCards from "./CardFirst";
 
 function SignUpBody() {
   return (
@@ -37,7 +37,7 @@ function SignUpBody() {
         </div>
       
       </div>
-      <div className="divider-first" class="w-full"> </div>
+     
   
       </div>
   );
